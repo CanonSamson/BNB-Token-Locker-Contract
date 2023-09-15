@@ -10,6 +10,5 @@ root.render(
     <EthProvider>
       <App />
     </EthProvider>
-
   </React.StrictMode>
 );
