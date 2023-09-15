@@ -1,0 +1,1 @@
+export const tokenLockingContractAddress =0xC8f729e2f0A69B4B6a5Aa45D516Be83DF25FD5F3

@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  border: none;
+}
+.main {
+  padding: 0px 20px;
+}
+h1 {
+  text-transform: uppercase;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+nav {
+  display:  flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+}
+.nav-button {
+  padding: 10px ;
+  margin: 0px  10px;
+  background-color: rgb(45, 45, 165);
+}
+
+.header {
+  position: relative;
+  /* border: 1px solid #fff; */
+  padding:  100px 10px;
+  z-index: 1;
+  backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+  background-color: rgba(127, 111, 194, 0.5); /* Background color with opacity */
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-gap: 20px; /* Gap between grid items */
+  padding:  20px 0px;
+}
+.card {
+  /* border: 1px solid #ccc; */
+  display:  flex;
+   justify-content: center;
+   align-items: center;
+   height: 150px;
+   text-align: center;
+   flex-direction: column;
+   backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+   background-color: rgba(127, 111, 194, 0.5); /* Background color with opacity */
+}
+
+.srceen {
+  height: 100vh;
+  width: 100%;
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.input-wrapper{
+  width: 300px;
+  backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+  background-color: rgba(127, 111, 194, 0.5); /* Background color with opacity */
+  /* border: 1px solid #ccc; */
+  font-size: 14px;
+  padding: 20px;
+}
+.input-wrapper button {
+  width: 100%;
+  height: 45px;
+margin: 20px 0px;
+background-color: rgb(45, 45, 165);
+
+}
+input {
+  width: 100%;
+    border: 1px solid #ccc;
+  background: transparent;
+  height: 45px;
+  padding: 10px;
+}
+.unlock {
+  padding: 100px;
+  border-radius: 50%;
+  background-color: rgba(127, 111, 194, 0.5); /* Background color with opacity */
+  /* border: 1px solid #ccc; */
+  /* border: 1px solid #ccc; */
+}
+.loading {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  object-fit: cover;
+  z-index: 2;
+  background: #000;
+  opacity: 10%;
+}
