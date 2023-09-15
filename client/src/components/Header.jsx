@@ -37,7 +37,7 @@ const Header = ({ lockedToken, userTokensRewards, lockTimestamp, user }) => {
                         <span>Locking Time</span>
                         <div className="">
                             {/* Display locking time if tokens are locked */}
-                            <span>  {lockedToken !== 0 && lockTimestamp && lockTimestamp}</span>
+                            <span>  {lockedToken != 0 && lockTimestamp && lockTimestamp}</span>
                         </div>
                     </div>
                 </div>
