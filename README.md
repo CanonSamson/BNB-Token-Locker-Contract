@@ -4,6 +4,8 @@
 Welcome to the **Web3 Token Locker DApp** project repository! This decentralized application (DApp) leverages blockchain technology to implement an Token locker platform on the BNB Chain.
 
 
+![Create Account](/s1.png)
+
 
 ## Table of Contents
 
